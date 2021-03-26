@@ -1,0 +1,13 @@
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\bin\Debug\netcoreapp3.1\Spese.exe
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\bin\Debug\netcoreapp3.1\Spese.deps.json
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\bin\Debug\netcoreapp3.1\Spese.runtimeconfig.json
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\bin\Debug\netcoreapp3.1\Spese.runtimeconfig.dev.json
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\bin\Debug\netcoreapp3.1\Spese.dll
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\bin\Debug\netcoreapp3.1\Spese.pdb
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\obj\Debug\netcoreapp3.1\Spese.csprojAssemblyReference.cache
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\obj\Debug\netcoreapp3.1\Spese.AssemblyInfoInputs.cache
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\obj\Debug\netcoreapp3.1\Spese.AssemblyInfo.cs
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\obj\Debug\netcoreapp3.1\Spese.csproj.CoreCompileInputs.cache
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\obj\Debug\netcoreapp3.1\Spese.dll
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\obj\Debug\netcoreapp3.1\Spese.pdb
+C:\Users\carlotta.colla\Documents\Esami\Settimana 1\Spese\Spese\obj\Debug\netcoreapp3.1\Spese.genruntimeconfig.cache
