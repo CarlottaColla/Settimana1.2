@@ -7,48 +7,39 @@ namespace Spese.FactoryFolder
 {
     public class Factory
     {
-        public static List<(int, string, double)> FactorySpese(Dictionary<int,string> speseDescrizione)
+        public static double FactorySpese(int spesa, string descrizione)
         {
             IRimborso rimborso = null;
 
             List<(int, string, double)> ritorna = new List<(int, string, double)>();
 
-            int spesa = 0;
-            foreach (var descrizione in speseDescrizione)
-            {
-                if (descrizione.Value.Equals("Viaggio"))
+                if (descrizione.Equals("Viaggio"))
                 {
                     rimborso = new Viaggio();
-                    spesa = descrizione.Key;
+                    
                 }
-                else if (descrizione.Value.Equals("Alloggio"))
+                else if (descrizione.Equals("Alloggio"))
                 {
                     rimborso = new Alloggio();
-                    spesa = descrizione.Key;
+                    
                 }
-                else if (descrizione.Value.Equals("Altro"))
+                else if (descrizione.Equals("Altro"))
                 {
                     rimborso = new Altro();
-                    spesa = descrizione.Key;
+                    
                 }
-                else if (descrizione.Value.Equals("Vitto"))
+                else if (descrizione.Equals("Vitto"))
                 {
                     rimborso = new Vitto();
-                    spesa = descrizione.Key;
+                   
                 }
                 else
                 {
                     Console.WriteLine("Descrizione sbagliata");
-                    return null;
+                    return 0;
                 }
 
-                double soldiRimborsati = rimborso.RimborsaSpesa(spesa);
-                ritorna.Add((descrizione.Key, descrizione.Value, soldiRimborsati));
-
-            }
-            return ritorna;
-
-            
+                return rimborso.RimborsaSpesa(spesa);            
         }
     }
 }

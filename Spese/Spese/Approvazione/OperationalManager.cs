@@ -11,7 +11,7 @@ namespace Spese.Approvazione
         {
             if (spesa > 400 && spesa <= 1000)
             {
-                return $"Un operational manager ha approvato la spesa di {spesa} euro";
+                return $"APPROVATA OPERATIONAL MANAGER";
             }
             return base.Handle(spesa);
         }
